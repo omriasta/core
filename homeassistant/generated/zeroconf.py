@@ -16,6 +16,9 @@ ZEROCONF = {
     "_daap._tcp.local.": [
         "forked_daapd"
     ],
+    "_dkapi._tcp.local.": [
+        "daikin"
+    ],
     "_elg._tcp.local.": [
         "elgato"
     ],
@@ -54,8 +57,10 @@ ZEROCONF = {
 HOMEKIT = {
     "819LMB": "myq",
     "AC02": "tado",
+    "Abode": "abode",
     "BSB002": "hue",
     "Healty Home Coach": "netatmo",
+    "Iota": "abode",
     "LIFX": "lifx",
     "Netatmo Relay": "netatmo",
     "PowerView": "hunterdouglas_powerview",
